@@ -8,6 +8,8 @@ interface PropertyProps {
     title: string;
     location: string;
     landmark?: string;
+    price?: string;
+  
     status: string;
     image: string;
     beds: number;
@@ -108,7 +110,7 @@ const PropertyCard = ({ property }: PropertyProps) => {
               Details
             </Link>
             <a 
-              href={`https://wa.me/919897804999?text=Hello Tyagi Estates, I am interested in inquiring about ${property.title}.`}
+              href={`https://wa.me/919760004929?text=Hello Tyagi Estates, I am interested in inquiring about ${property.title}.`}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 py-4 bg-blue-600 hover:bg-blue-700 text-white text-[10px] uppercase tracking-widest rounded-2xl font-bold transition-all shadow-lg shadow-blue-600/20 active:scale-95"

@@ -1,5 +1,6 @@
 import { client } from '@/lib/sanity';
 import PropertyDetailClient from '@/components/PropertyDetailClient';
+import Link from 'next/link';
 
 export default async function PropertyPage({ params }: { params: Promise<{ slug: string }> }) {
   // 1. AWAIT the params for Next.js 15+
