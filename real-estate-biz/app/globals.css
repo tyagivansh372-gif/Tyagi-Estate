@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+:root {
+  /* Deep Architectural Palette */
+  --background: #020617; /* Deep Slate-Black */
+  --foreground: #e2e8f0; /* Soft Slate-White */
+  --accent-blue: #2563eb;
+  --card-bg: rgba(15, 23, 42, 0.5);
+  --border-slate: #1e293b;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent-blue);
+  /* Adding Serif font for that premium Real Estate look */
+  --font-serif: "Playfair Display", serif; 
+  --font-sans: "Inter", var(--font-geist-sans);
+}
+
+/* Base Styles */
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  /* 1. FIX: Removes the I-beam 'typing' cursor globally */
+  cursor: default;
+}
+
+/* 2. UI POLISH: Specific cursor and selection management */
+h1, h2, h3, h4, h5, h6, span, img, p {
+  /* Prevents accidental highlighting which ruins the 'app' look */
+  user-select: none;
+  cursor: default;
+}
+
+/* 3. INTERACTIVE OVERRIDE: Ensures links and buttons still feel clickable */
+a, button, [role="button"], .cursor-pointer {
+  cursor: pointer !important;
+}
+
+/* --- Responsive Utilities --- */
+
+/* 4. Scrollbar Management for mobile sliders */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* 5. Custom Scrollbar for desktop */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* --- Scroll & Hover Animations --- */
+
+/* Fade-in on Scroll Utility */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-on-scroll {
+  animation: fadeInUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* Glassmorphism Effect for Cards */
+.glass-card {
+  background: var(--card-bg);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-slate);
+  transition: all 0.5s ease;
+}
+
+.glass-card:hover {
+  border-color: rgba(37, 99, 235, 0.4);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Hero Zoom Effect */
+@keyframes slowZoom {
+  0% { transform: scale(1.0); }
+  100% { transform: scale(1.08); }
+}
+
+.animate-slow-zoom {
+  animation: slowZoom 25s linear infinite alternate;
+}
