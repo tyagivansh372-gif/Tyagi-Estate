@@ -102,7 +102,7 @@ const Navbar = () => {
                 ))}
                 <div className="h-[1px] w-12 bg-slate-800 mx-auto" />
                 <p className="text-[9px] uppercase tracking-[0.3em] text-slate-500 font-bold">
-                  Established 2005
+                  Established 2005 • Saharanpur
                 </p>
               </div>
             </motion.div>
