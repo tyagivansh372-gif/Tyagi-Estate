@@ -4,7 +4,8 @@
 ![React](https://img.shields.io/badge/React-19.2.3-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss)
-![Sanity](https://img.shields.io/badge/Sanity-5.7.0-F03E2F?logo=sanity)
+![Sanity](https://img.shields.io/b<img width="1600" height="900" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/594236ec-d2a6-4bf6-b719-d40b31bbfc40" />
+adge/Sanity-5.7.0-F03E2F?logo=sanity)
 
 A modern real estate portfolio website showcasing premium property listings with integrated content management. Built for Tyagi Estates, a trusted real estate brand established in 2005.
 
@@ -14,6 +15,8 @@ A modern real estate portfolio website showcasing premium property listings with
 Tyagi Estates is a full-stack real estate application featuring a Next.js frontend and Sanity CMS backend. The platform displays property listings, company legacy information, and consulting services for renting and selling properties. It uses server-side rendering for optimal performance and integrates with Sanity for dynamic content management.
 
 ## Screenshots
+
+<img width="1600" height="900" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/9d686c2e-b3dd-4756-93c3-a54f1db640a4" />
 
 ## Features
 
