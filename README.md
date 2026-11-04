@@ -4,7 +4,7 @@
 ![React](https://img.shields.io/badge/React-19.2.3-blue?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss)
-![Sanity](https://img.shields.io/b<img width="1600" height="900" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/594236ec-d2a6-4bf6-b719-d40b31bbfc40" />
+
 adge/Sanity-5.7.0-F03E2F?logo=sanity)
 
 A modern real estate portfolio website showcasing premium property listings with integrated content management. Built for Tyagi Estates, a trusted real estate brand established in 2005.
