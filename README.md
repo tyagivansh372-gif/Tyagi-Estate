@@ -15,8 +15,10 @@ A modern real estate portfolio website showcasing premium property listings with
 Tyagi Estates is a full-stack real estate application featuring a Next.js frontend and Sanity CMS backend. The platform displays property listings, company legacy information, and consulting services for renting and selling properties. It uses server-side rendering for optimal performance and integrates with Sanity for dynamic content management.
 
 ## Screenshots
+<img width="1109" height="537" alt="Screenshot (157)" src="https://github.com/user-attachments/assets/71fdb0e3-b368-43e6-a7ff-5aa7eca0dab0" />
+<img width="1100" height="514" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/8826d11b-bee9-4b52-87a1-04009f8de317" />
 
-<img width="1600" height="900" alt="Screenshot (156)" src="https://github.com/user-attachments/assets/9d686c2e-b3dd-4756-93c3-a54f1db640a4" />
+
 
 ## Features
 
